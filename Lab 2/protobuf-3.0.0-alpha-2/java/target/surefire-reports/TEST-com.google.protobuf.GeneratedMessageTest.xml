@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="80" failures="0" name="com.google.protobuf.GeneratedMessageTest" time="0.26" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.31-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ubuntu/Lab2new/protobuf-3.0.0-alpha-2/java"/>
+    <property name="java.runtime.version" value="1.8.0_31-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven2/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.13.0-44-generic"/>
+    <property name="user.home" value="/home/ubuntu"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="ubuntu"/>
+    <property name="java.class.path" value="/usr/share/maven2/boot/classworlds.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher &quot;install&quot;"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_31"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven2"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testClear" time="0.002"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testParsePackedToUnpacked" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testParseUnpackedToPacked" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testReflectionClearOneof" time="0.006"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testEnumInterface" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testEnumMap" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testExtensionMessageOrBuilder" time="0.003"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testExtensionRepeatedSetters" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testExtensionDefaults" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testExtensionReflectionGetters" time="0.002"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testExtensionReflectionSetters" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testExtensionReflectionSettersRejectNull" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testExtensionReflectionRepeatedSetters" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testExtensionReflectionRepeatedSettersRejectNull" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testExtensionReflectionDefaults" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testClearExtension" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testExtensionCopy" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testExtensionMergeFrom" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testLiteExtensionMessageOrBuilder" time="0.013"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testLiteExtensionRepeatedSetters" time="0.002"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testLiteExtensionDefaults" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testClearLiteExtension" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testLiteExtensionCopy" time="0.009"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testLiteExtensionMergeFrom" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testEnumValueOptionsInMultipleFilesMode" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testMultipleFilesOption" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testOptionalFieldWithRequiredSubfieldsOptimizedForSize" time="0.002"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testUninitializedExtensionInOptimizedForSize" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testToBuilder" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testFieldConstantValues" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testExtensionConstantValues" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testRecursiveMessageDefaultInstance" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testSerialize" time="0.05"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testSerializePartial" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testEnumValues" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testNonNestedExtensionInitialization" time="0.006"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testNestedExtensionInitialization" time="0.003"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testNonNestedExtensionLiteInitialization" time="0.002"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testNestedExtensionLiteInitialization" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testInvalidations" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testInvalidations_Extensions" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testBaseMessageOrBuilder" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testMessageOrBuilderGetters" time="0.004"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testGetFieldBuilder" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testGetFieldBuilderWithInitializedValue" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testGetFieldBuilderNotSupportedException" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testConflictingOuterClassName" time="0.009"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testOneofEnumCase" time="0.014"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testClearOneof" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testSetOneofClearsOthers" time="0.002"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testOneofTypes" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testOneofMerge" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testOneofSerialization" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testOneofNestedBuilderOnChangePropagation" time="0.002"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testGetRepeatedFieldBuilder" time="0.004"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testGetRepeatedFieldBuilderWithInitializedValue" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testGetRepeatedFieldBuilderNotSupportedException" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testDefaultInstance" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testMessageOrBuilder" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testUsingBuilderMultipleTimes" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testProtosShareRepeatedArraysIfDidntChange" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testRepeatedArraysAreImmutable" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testParsedMessagesAreImmutable" time="0.003"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testSettersRejectNull" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testRepeatedSetters" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testRepeatedSettersRejectNull" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testRepeatedAppend" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testRepeatedAppendRejectsNull" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testRepeatedAppendIterateOnlyOnce" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testMergeFromOtherRejectsNull" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testSettingForeignMessageUsingBuilder" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testSettingRepeatedForeignMessageUsingBuilder" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testDefaults" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testReflectionGetters" time="0.003"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testReflectionSetters" time="0.006"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testReflectionSettersRejectNull" time="0.001"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testReflectionRepeatedSetters" time="0.002"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testReflectionRepeatedSettersRejectNull" time="0"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testReflectionDefaults" time="0.002"/>
+  <testcase classname="com.google.protobuf.GeneratedMessageTest" name="testReflectionGetOneof" time="0.003"/>
+</testsuite>
